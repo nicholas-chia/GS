@@ -20,7 +20,7 @@ function respondToFormSubmit() {
     //Logger.log(message);
    }
   
-  // Sends email to address in the email variable
+  // Sends email to address in the emails variable
   for (var i in emails) {
     MailApp.sendEmail(emails[i], subject, message);
   }
